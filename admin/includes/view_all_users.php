@@ -7,7 +7,7 @@
         <th>Lastname</th>
         <th>Email</th>
         <th>Role</th>
-        <th>Date</th>
+<!--        <th>Date</th>-->
     </tr>
     </thead>
     <tbody>
@@ -32,10 +32,22 @@
         echo "<td>$suer_lastname</td>";
         echo "<td>$user_email</td>";
         echo "<td>$user_role</td>";
-       // echo "<td>$user_date</td>";
-//        echo "<td><a href='comments.php?approve=$comment_id'>Approve</a> </td>";
-//        echo "<td><a href='comments.php?unapprove=$comment_id'>Unapprove</a> </td>";
-//        echo "<td><a href='comments.php?delete=$comment_id'>Delete</a> </td>";
+
+//        $query = "SELECT * FROM posts WHERE post_id = $comment_post_id";
+//        $select_post_id_query = mysqli_query($connection, $query);
+//
+//        if(!$select_post_id_query){
+//            die("Select failed " . mysqli_error($connection));
+//        }
+//
+//        while($row = mysqli_fetch_assoc($select_post_id_query)){
+//            $post_id = $row['post_id'];
+//            $post_title = $row['post_title'];
+//        }
+
+        echo "<td><a href='comments.php?approve='>Approve</a> </td>";
+        echo "<td><a href='comments.php?unapprove='>Unapprove</a> </td>";
+        echo "<td><a href='comments.php?delete='>Delete</a> </td>";
 
         echo "</tr>";
     }
