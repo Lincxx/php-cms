@@ -23,7 +23,7 @@
         $username = $row['username'];
         $user_password = $row['user_password'];
         $user_firstname = $row['user_firstname'];
-        $suer_lastname = $row['user_lastname'];
+        $user_lastname = $row['user_lastname'];
         $user_email = $row['user_email'];
         $user_image = $row['user_image'];
         $user_role = $row['user_role'];
@@ -33,7 +33,7 @@
         echo "<td>$user_id </td>";
         echo "<td>$username</td>";
         echo "<td>$user_firstname</td>";
-        echo "<td>$suer_lastname</td>";
+        echo "<td>$user_lastname</td>";
         echo "<td>$user_email</td>";
         echo "<td>$user_role</td>";
 
