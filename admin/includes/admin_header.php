@@ -44,6 +44,8 @@ if($_SESSION['user_role'] !== 'Admin'){
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/tinymce/tinymce.min.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 
 <body>
